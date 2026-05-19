@@ -1,0 +1,15 @@
+# Local secrets and deployment overrides
+.env
+.env.*
+!.env.example
+
+# Local Shadowsocks/VPN configs with real credentials
+conf/*.local.json
+conf/*secret*.json
+conf/*private*.json
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
